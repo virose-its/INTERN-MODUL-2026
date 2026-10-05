@@ -1,0 +1,101 @@
+# version: 2
+# updates:
+#   # Enable version updates for npm
+#   - package-ecosystem: "npm"
+#     directory: "/"
+#     schedule:
+#       interval: "weekly"
+#       day: "monday"
+#       time: "09:00"
+#     open-pull-requests-limit: 10
+#     reviewers:
+#       - "virose-its"
+#     assignees:
+#       - "virose-its"
+#     labels:
+#       - "dependencies"
+#       - "npm"
+#     commit-message:
+#       prefix: "chore"
+#       include: "scope"
+
+#   # Enable version updates for pip
+#   - package-ecosystem: "pip"
+#     directory: "/"
+#     schedule:
+#       interval: "weekly"
+#       day: "monday"
+#       time: "09:00"
+#     open-pull-requests-limit: 10
+#     reviewers:
+#       - "virose-its"
+#     assignees:
+#       - "virose-its"
+#     labels:
+#       - "dependencies"
+#       - "python"
+#     commit-message:
+#       prefix: "chore"
+#       include: "scope"
+
+#   # Enable version updates for GitHub Actions
+#   - package-ecosystem: "github-actions"
+#     directory: "/"
+#     schedule:
+#       interval: "weekly"
+#       day: "monday"
+#       time: "09:00"
+#     open-pull-requests-limit: 5
+#     reviewers:
+#       - "virose-its"
+#     assignees:
+#       - "virose-its"
+#     labels:
+#       - "dependencies"
+#       - "github-actions"
+#     commit-message:
+#       prefix: "chore"
+#       include: "scope"
+
+#   # Enable version updates for Docker
+#   - package-ecosystem: "docker"
+#     directory: "/"
+#     schedule:
+#       interval: "weekly"
+#       day: "monday"
+#       time: "09:00"
+#     open-pull-requests-limit: 5
+#     reviewers:
+#       - "virose-its"
+#     assignees:
+#       - "virose-its"
+#     labels:
+#       - "dependencies"
+#       - "docker"
+#     commit-message:
+#       prefix: "chore"
+#       include: "scope"
+
+#   # Enable version updates for Cargo (Rust)
+#   # - package-ecosystem: "cargo"
+#   #   directory: "/"
+#   #   schedule:
+#   #     interval: "weekly"
+
+#   # Enable version updates for Composer (PHP)
+#   # - package-ecosystem: "composer"
+#   #   directory: "/"
+#   #   schedule:
+#   #     interval: "weekly"
+
+#   # Enable version updates for Maven (Java)
+#   # - package-ecosystem: "maven"
+#   #   directory: "/"
+#   #   schedule:
+#   #     interval: "weekly"
+
+#   # Enable version updates for Gradle (Java)
+#   # - package-ecosystem: "gradle"
+#   #   directory: "/"
+#   #   schedule:
+#   #     interval: "weekly"

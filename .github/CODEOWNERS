@@ -1,0 +1,25 @@
+# Code Owners
+
+# This file defines individuals or teams responsible for code in this repository.
+
+# Read more: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owners for everything in the repo
+
+- @virose-its
+
+# GitHub-specific files
+
+/.github/ @virose-its
+
+# Documentation
+
+/docs/ @virose-its
+\*.md @virose-its
+
+# Configuration files
+
+_.yml @virose-its
+_.yaml @virose-its
+_.json @virose-its
+_.toml @virose-its

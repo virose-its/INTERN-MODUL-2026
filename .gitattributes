@@ -1,0 +1,74 @@
+# ---------------------------------------
+# Normalize line endings
+# ---------------------------------------
+* text=auto eol=lf
+
+# ---------------------------------------
+# Explicit text files
+# ---------------------------------------
+*.md        text
+*.txt       text
+*.yml       text
+*.yaml      text
+*.json      text
+*.toml      text
+*.ini       text
+*.env       text
+*.env.*     text
+*.gitignore text
+*.gitattributes text
+
+# ---------------------------------------
+# Source code (text)
+# ---------------------------------------
+*.c     text
+*.h     text
+*.cpp   text
+*.hpp   text
+*.py    text
+*.js    text
+*.ts    text
+*.jsx   text
+*.tsx   text
+*.java  text
+*.go    text
+*.rs    text
+*.sh    text eol=lf
+
+# ---------------------------------------
+# Binary files (no diff, no EOL conversion)
+# ---------------------------------------
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.bmp  binary
+*.svg  binary
+*.ico  binary
+*.pdf  binary
+*.zip  binary
+*.tar  binary
+*.gz   binary
+*.7z   binary
+
+# ---------------------------------------
+# Archives & executables
+# ---------------------------------------
+*.exe  binary
+*.dll  binary
+*.bin  binary
+*.elf  binary
+*.hex  binary
+
+# ---------------------------------------
+# Prevent GitHub from mis-detecting vendored code
+# ---------------------------------------
+vendor/** linguist-vendored
+dist/**   linguist-vendored
+build/**  linguist-vendored
+
+# ---------------------------------------
+# Generated files (hide from language stats)
+# ---------------------------------------
+*.min.js linguist-generated
+*.lock   linguist-generated
