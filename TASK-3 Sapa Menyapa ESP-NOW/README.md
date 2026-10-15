@@ -67,7 +67,7 @@ Perintah JAWAB:
 
 #### Pembagian MAC_ADDRESS Pake aja namanya
 
-https://github.com/virose-its/INTERN-MODUL-2026/blob/main/TASK-3%20Sapa%20Menyapa%20ESP-NOW/TEMPLATE%20TASK-3%20Sapa%20Menyapa/src/main.h#L15-L28
+https://github.com/virose-its/INTERN-MODUL-2026/blob/main/TASK-3%20Sapa%20Menyapa%20ESP-NOW/TEMPLATE%20TASK-3%20Sapa%20Menyapa/src/main.h#L15-L26
 https://github.com/virose-its/INTERN-MODUL-2026/blob/main/TASK-3%20Sapa%20Menyapa%20ESP-NOW/TEMPLATE%20TASK-3%20Sapa%20Menyapa/src/utility.cpp#L5-L29
 
 #### Enum Perintah
