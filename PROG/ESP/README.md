@@ -426,13 +426,9 @@ Sama kayak pembelajaran dimodul sebelumnya, ESP juga support pembacaan JSON, tap
 
 ![ArduinoJson Lib install2](./assets/platformiolibarduinojson2.png)
 
-https://github.com/virose-its/MODUL-PEMBELAJARAN/blob/0c2005610d995232fcd6f68522ccfb3f6fb688c4/Programming/ESP/example/ArduinoJSON/platformio.ini#L16-L17
-
 untuk dokumentasinya bisa dilihat di:
 [ArduinoJSON](https://arduinojson.org/ "ArduinoJSON")
 
-contoh penggunaan ArduinoJSON simple:
-https://github.com/virose-its/MODUL-PEMBELAJARAN/blob/8b5fa021af8fe352d958d38830b4af64302ddca0/Programming/ESP/example/ArduinoJSON/src/main.cpp#L2-L88
 
 Kode diatas ngelakuin 2 hal:
 
