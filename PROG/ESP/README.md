@@ -418,6 +418,36 @@ void loop() {
 }
 ```
 
+## JSON
+
+Sama kayak pembelajaran dimodul sebelumnya, ESP juga support pembacaan JSON, tapi pake library tambahan yaitu ArduinoJSON. Cara installnya pake libdeps di platformio.ini
+
+![ArduinoJson Lib install](./assets/platformiolibarduinojson1.png)
+
+![ArduinoJson Lib install2](./assets/platformiolibarduinojson2.png)
+
+https://github.com/virose-its/MODUL-PEMBELAJARAN/blob/0c2005610d995232fcd6f68522ccfb3f6fb688c4/Programming/ESP/example/ArduinoJSON/platformio.ini#L16-L17
+
+untuk dokumentasinya bisa dilihat di:
+[ArduinoJSON](https://arduinojson.org/ "ArduinoJSON")
+
+contoh penggunaan ArduinoJSON simple:
+https://github.com/virose-its/MODUL-PEMBELAJARAN/blob/8b5fa021af8fe352d958d38830b4af64302ddca0/Programming/ESP/example/ArduinoJSON/src/main.cpp#L2-L88
+
+Kode diatas ngelakuin 2 hal:
+
+1. Membuat file json dan ngisi file tersebut lalu disimpen di SPIFFS
+2. Baca file json dari SPIFFS dan parsing isinya
+
+Jadi proses pembacaan json di arduino itu ngelakuin 2 step:
+
+1. Baca file json dari SPIFFS
+2. Parsing isinya pake deserializeJson()
+3. Parsing nilai non json ke jsondocument pake SerializeJson()
+
+jadi DeserializeJson() itu fungsi buat ngebaca/ngeekstrak data file json ke bentuk yang dapat diolah di program.
+Sedangkan SerializeJson() itu fungsi buat ngubah data yang ada di program ke bentuk json.
+
 ## Simulasi Wokwi
 
 Wokwi adalah sebuah platform simulasi online untuk mikrokontroler seperti Arduino dan ESP32. Wokwi memungkinkan pengguna untuk membuat, menguji, dan berbagi proyek mikrokontroler tanpa perlu perangkat keras fisik. - [Wokwi ESP32](https://wokwi.com/arduino/new?board=esp32dev "Wokwi ESP32") (Summary oleh ChatGPT)
@@ -430,6 +460,3 @@ Simulasi Wokwi(ESP32) : [Wokwi ESP32 Simulator](https://wokwi.com/esp32 "Wokwi E
 
 Setup Wokwi Vscode(ESP32): [Setup Wokwi Vscode](https://docs.wokwi.com/vscode/getting-started "Setup Wokwi Vscode")
 
-## JSON
-
-_TBA ndak sempat bikin nanti tak tambahin yah_
