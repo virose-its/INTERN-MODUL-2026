@@ -6,10 +6,10 @@
 
 #### **TODO 1**: Buatlah perintah untuk mencetak teks yang menyatakan identitas mu.
 
-https://github.com/virose-its/INTERN-MODUL-2026/blob/e137fed29e4db7e655b02d499a70e7c17d62d43a/Programming/PENUGASAN/TASK-3%20Sapa%20Menyapa%20ESP-NOW/TEMPLATE%20TASK-3%20Sapa%20Menyapa/src/main.cpp#L6-L14
+https://github.com/virose-its/INTERN-MODUL-2026/blob/main/TASK-3%20Sapa%20Menyapa%20ESP-NOW/TEMPLATE%20TASK-3%20Sapa%20Menyapa/src/main.cpp#L6-L14
 
 #### **TODO 2**: Buatlah perintah pemrosesan data perintah yang akan diterima serial dari laptop.
-https://github.com/virose-its/INTERN-MODUL-2026/blob/e137fed29e4db7e655b02d499a70e7c17d62d43a/Programming/PENUGASAN/TASK-3%20Sapa%20Menyapa%20ESP-NOW/TEMPLATE%20TASK-3%20Sapa%20Menyapa/src/utility.cpp#L105-L107
+https://github.com/virose-its/INTERN-MODUL-2026/blob/main/TASK-3%20Sapa%20Menyapa%20ESP-NOW/TEMPLATE%20TASK-3%20Sapa%20Menyapa/src/utility.cpp#L105-L107
 
 Ketentuan penerimaan data dari serial memiliki Struktur sebagai berikut:  
 | HEADER | LENGTH | DATA |  
@@ -41,7 +41,7 @@ Perintah yang dapat diproses:
 > Untuk perintah CEK dan HALO, perintah hanya diikuti 1 parameter yaitu tujuan jika diterima dari Serial. Jika menerima dari ESP-NOW, perintah diikuti dengan String.
 
 #### **TODO 3**: Buatlah perintah untuk memproses perintah yang diterima baik melalui Serial dan ESP-NOW.
-https://github.com/virose-its/INTERN-MODUL-2026/blob/e137fed29e4db7e655b02d499a70e7c17d62d43a/Programming/PENUGASAN/TASK-3%20Sapa%20Menyapa%20ESP-NOW/TEMPLATE%20TASK-3%20Sapa%20Menyapa/src/utility.cpp#L109-L111
+https://github.com/virose-its/INTERN-MODUL-2026/blob/main/TASK-3%20Sapa%20Menyapa%20ESP-NOW/TEMPLATE%20TASK-3%20Sapa%20Menyapa/src/utility.cpp#L109-L111
 
 #### Ketentunan pemrosesan perintah:
 
@@ -72,4 +72,4 @@ https://github.com/virose-its/INTERN-MODUL-2026/blob/main/TASK-3%20Sapa%20Menyap
 
 #### Enum Perintah
 
-https://github.com/virose-its/INTERN-MODUL-2026/blob/206a0e37ef614928b82e5d92ff3f648a5731d0fe/Programming/PENUGASAN/TASK-3%20Sapa%20Menyapa%20ESP-NOW/TEMPLATE%20TASK-3%20Sapa%20Menyapa/src/main.h#L30-L34
+https://github.com/virose-its/INTERN-MODUL-2026/blob/main/TASK-3%20Sapa%20Menyapa%20ESP-NOW/TEMPLATE%20TASK-3%20Sapa%20Menyapa/src/main.h#L30-L34
