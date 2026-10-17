@@ -41,7 +41,7 @@ Perintah yang dapat diproses:
 > Untuk perintah CEK dan HALO, perintah hanya diikuti 1 parameter yaitu tujuan jika diterima dari Serial. Jika menerima dari ESP-NOW, perintah diikuti dengan String.
 
 #### **TODO 3**: Buatlah perintah untuk memproses perintah yang diterima baik melalui Serial dan ESP-NOW.
-https://github.com/virose-its/MODUL-PEMBELAJARAN/blob/e137fed29e4db7e655b02d499a70e7c17d62d43a/Programming/PENUGASAN/TASK-3%20Sapa%20Menyapa%20ESP-NOW/TEMPLATE%20TASK-3%20Sapa%20Menyapa/src/utility.cpp#L109-L111
+https://github.com/virose-its/INTERN-MODUL-2026/blob/e137fed29e4db7e655b02d499a70e7c17d62d43a/Programming/PENUGASAN/TASK-3%20Sapa%20Menyapa%20ESP-NOW/TEMPLATE%20TASK-3%20Sapa%20Menyapa/src/utility.cpp#L109-L111
 
 #### Ketentunan pemrosesan perintah:
 
